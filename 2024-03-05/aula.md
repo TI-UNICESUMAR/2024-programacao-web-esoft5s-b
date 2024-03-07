@@ -24,4 +24,4 @@ Essa é uma maneira simples e fácil de disponibilizar um site na web, e será a
 
 Recursos adicionais:
 
-(Tutorial visual de como criar uma página do github pages a partir de um repositório)[https://medium.com/flycode/how-to-deploy-a-static-website-for-free-using-github-pages-8eddc194853b].  
+[Tutorial visual de como criar uma página do github pages a partir de um repositório](https://medium.com/flycode/how-to-deploy-a-static-website-for-free-using-github-pages-8eddc194853b).  
