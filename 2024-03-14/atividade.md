@@ -7,4 +7,4 @@ Deixar a nossa **nav** responsiva, utilizando **Flexbox**;
 Deixar a nossa **lista de evoluções** responsiva, utilizando **Flexbox**;  
 Remover **layout shifting** no carregamento das imagens;  
 
-O resultado da atividade deverá refletir no Github Pages do seu repositório.
+O resultado da atividade deverá refletir no [Github Pages](https://github.com/TI-UNICESUMAR/2024-programacao-web-esoft5s-b/blob/main/2024-03-05/aula.md) do seu repositório.
