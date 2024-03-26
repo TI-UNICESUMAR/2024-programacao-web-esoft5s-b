@@ -8,7 +8,7 @@ A partir do código [pokemon-responsivo.html](../2024-03-19-resolucao-atividade-
 - Quebrar linha das imagens quando não houver mais largura disponível;
 - Adicionar flexbox na lista da seção de curiosidades;
 - Distanciar os itens da lista de curiosidades utilizando um gap de 12px;
-- Adicionar flexbox no footer, remover a margin-bottom dos <p> e distanciar os itens com gap.
+- Adicionar flexbox no footer, remover a margin-bottom dos '<p>' e distanciar os itens com gap.
 - Remover o text-align: center do footer e centralizar com flex;
 
 Link 1: https://archives.bulbagarden.net/media/upload/thumb/7/79/Squirtle_SSBU.png/200px-Squirtle_SSBU.png
