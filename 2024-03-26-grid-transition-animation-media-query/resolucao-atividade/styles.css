@@ -127,6 +127,7 @@ nav a:hover {
 #curiosidades ul {
   display: flex;
   flex-direction: column;
+  gap: 12px;
 }
 
 #curiosidades li::marker {
@@ -142,6 +143,7 @@ nav a:hover {
 
 #evolucao img {
   height: 150px;
+  width: 150px;
 }
 
 #evolucao figcaption {
