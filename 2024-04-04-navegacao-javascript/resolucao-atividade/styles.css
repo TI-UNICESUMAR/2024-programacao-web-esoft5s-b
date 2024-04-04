@@ -207,13 +207,10 @@ article {
 
 /* Links */
 
-a:hover {
-  transition: opacity 0.3s ease-in-out;
-}
-
 a[target='_blank'] {
   color: #4592c4;
   font-weight: bold;
+  transition: opacity 0.3s ease-in-out;
 }
 
 a[target='_blank']:hover {
