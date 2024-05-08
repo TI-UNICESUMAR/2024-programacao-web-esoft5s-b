@@ -11,8 +11,8 @@ Temos diversos tipos de campos de formulários, como `<input>`, `<textarea>`, `<
 Os [inputs](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/input) são os elementos mais comuns de um formulário, e possuem diversos tipos, como `text`, `password`, `email`, `number`, `date`, `file`, `checkbox`, `radio`, etc. Eles são definidos através do atributo `type`.
 
 ```html
-<!-- Para entrada de texto longo (descrição, comentário). -->
-<input type="textarea" />
+<!-- Para entrada de texto. -->
+<input type="text" />
 ```
 
 Além do type, também existem outros atributos importantes para os inputs, como `name`, `value`, `placeholder`, `required`, `disabled`, `readonly`, `min`, `max`, etc.
@@ -22,17 +22,17 @@ Além do type, também existem outros atributos importantes para os inputs, como
 O atributo [name](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/input#name) é utilizado para identificar o campo, e é o nome que será enviado junto aos dados formulário for submetido.
 
 ```html
-<input type="textarea" name="descricao" />
+<input type="text" name="nome" />
 ```
 
 O atributo [value](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/input#value) é um atributo opcional que define o valor inicial do campo. É obrigatório para inputs do tipo `checkbox` e `radio`. Pode ser utilizado via javascript para definir ou obter o valor do campo.
 
 ```html
-<input type="textarea" name="descricao" value="Sua descricao" />
+<input type="text" name="nome" value="Seu nome" />
 ```
 
 ```js
-document.querySelector('input[name="descricao"]').value = 'Nova descrição'
+document.querySelector('input[name="nome"]').value = 'Novo nome'
 ```
 
 ---
@@ -233,10 +233,10 @@ function enviar(e) {
   e.preventDefault()
 
   const form = e.target
+  // const form = document.querySelector('form[name="meu-form"]')
   const formData = new FormData(form)
 
   console.log(formData.get('nome'))
-  console.log(formData.get('email'))
   console.log(formData.get('email'))
 }
 ```
