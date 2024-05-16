@@ -1,6 +1,6 @@
 ## Atividade JavaScript
 
-A partir dos arquivos `index.html` e `style.css` fornecidos, crie um arquivo script.js que crie a página do Squirtle que fizemos durante o bimestre passado. **Sendo a única diferença que não haverá navegação ao clicar nas evoluções**.
+A partir dos arquivos `index.html` e `styles.css` fornecidos, crie um arquivo script.js que crie a página do Squirtle que fizemos durante o bimestre passado. **Sendo a única diferença que não haverá navegação ao clicar nas evoluções**.
 
 Link do forms para enviar a atividade, até dia 25/05: https://forms.gle/A6j6ZTX4YaUosAqT9
 
