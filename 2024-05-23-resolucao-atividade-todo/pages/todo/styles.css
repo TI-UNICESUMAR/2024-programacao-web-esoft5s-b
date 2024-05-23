@@ -1,0 +1,93 @@
+/* Reset de estilos para garantir consistência em diferentes navegadores */
+body,
+h1,
+h2,
+p,
+ul,
+ol,
+li,
+figure,
+table,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #f4f4f4;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+header,
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 16px;
+}
+
+main form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  width: 40ch;
+  margin: 0 auto;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+}
+
+input,
+textarea::placeholder {
+  font-family: 'Arial', sans-serif;
+}
+
+button {
+  background-color: #0074d9;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  max-width: 80ch;
+  margin: 0 auto;
+}
+
+li {
+  margin: 8px 0;
+  padding: 20px;
+  border: solid 1px #ccc;
+}
+
+li p {
+  white-space: pre-wrap;
+  margin-top: 10px;
+}
