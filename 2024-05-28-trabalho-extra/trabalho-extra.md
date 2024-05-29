@@ -8,6 +8,8 @@ Você poderá utilizar o projeto de TODO List desenvolvido durante as aulas ou c
 
 Também poderá utilizar a API de tarefas desenvolvida na outra disciplina, ou utilizar a API desse projeto https://github.com/satinP/express-todo-list, que é um fork da API desenvolvida pelo @matheushb.
 
+****OBS:**** Não é necessário fazer deploy da API, portanto, caso utilize a API fornecida acima, eu rodarei ela localmente para realizar os testes. Se for utilizada outra API, favor informar em um arquivo README.md na raiz do projeto da entrega, como rodar a API localmente.
+
 Os estilos ficam a seu critério.
 
 #### Requisitos
