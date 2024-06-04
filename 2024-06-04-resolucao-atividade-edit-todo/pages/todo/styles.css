@@ -1,0 +1,120 @@
+/* Reset de estilos para garantir consistência em diferentes navegadores */
+body,
+h1,
+h2,
+p,
+ul,
+ol,
+li,
+figure,
+table,
+th,
+td {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  background-color: #f4f4f4;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  min-height: 100vh;
+}
+
+header,
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 1rem;
+}
+
+main form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  width: 40ch;
+  margin: 0 auto;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  font-size: 16px;
+}
+
+input,
+textarea::placeholder {
+  font-family: 'Arial', sans-serif;
+}
+
+button {
+  background-color: #0074d9;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  max-width: 80ch;
+  margin: 0 auto;
+}
+
+li {
+  margin: 0.5rem 0;
+  padding: 20px;
+  border: solid 1px #ccc;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+li div {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+li p {
+  white-space: pre-wrap;
+  margin-top: 10px;
+}
+
+li button {
+  background-color: #676767;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin: -10px -10px -10px auto;
+  border-radius: 5px;
+  width: 28px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+dialog {
+  border-radius: 5px;
+}
