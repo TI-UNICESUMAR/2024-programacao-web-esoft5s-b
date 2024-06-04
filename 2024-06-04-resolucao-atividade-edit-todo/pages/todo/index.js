@@ -16,7 +16,7 @@ function addTask(event) {
 
   const li = document.createElement('li')
 
-  li.id = taskId
+  li.id = `id-${taskId}`
   li.innerHTML = `
     <div>
       <h2>${taskTitle}</h2>
