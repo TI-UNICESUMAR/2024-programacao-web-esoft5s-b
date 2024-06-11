@@ -1,4 +1,4 @@
-### Instalando o React
+### Inicializando um projeto React
 
 O React é uma biblioteca de JavaScript, e pode ser instalado através do npm, que é o gerenciador de pacotes do Node.js. Então é necessário ter o Node.js instalado na máquina.
 
