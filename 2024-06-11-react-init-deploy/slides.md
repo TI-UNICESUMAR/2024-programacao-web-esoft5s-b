@@ -68,8 +68,20 @@ function Header() {
 
 #### Deploy Github Pages
 
+Antes de fazer o deploy, é necessário configurar o projeto para gerar um build estático, que será utilizado para servir o site no Github Pages.
+
+Para fazer ressa configuração, basta acessar o arquivo `next.config.js` e adicionar a seguinte configuração:
+
+```js
+module.exports = {
+  output: 'export',
+}
+```
+
+[Deploy de sites estáticos](https://nextjs.org/docs/app/building-your-application/deploying/static-exports)
+
+---
+
 Para fazer o deploy de um projeto React no Github Pages, basta acessar a página do repositório, ir na aba `Settings`, e na seção `Github Pages`, selecionar a opção para utilizar Github Actions.
 
 Após isso, podemos verificar os workflows disponíveis no github, e procurar o workflow **_Next.js_**, selecionar a opção 'configure', que irá criar um novo arquivo no seu projeto chamado `.github/workflows/next.yml`. Basta commitar o arquivo para inicializar um deploy.
-
-<!-- _footer: pedro.mateus@unicesumar.edu.br -->
