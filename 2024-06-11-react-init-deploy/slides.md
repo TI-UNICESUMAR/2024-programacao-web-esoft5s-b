@@ -73,9 +73,9 @@ Antes de fazer o deploy, é necessário configurar o projeto para gerar um build
 Para fazer ressa configuração, basta acessar o arquivo `next.config.js` e adicionar a seguinte configuração:
 
 ```js
-module.exports = {
-  output: 'export',
-}
+const nextConfig = {
+    output: 'export'
+};
 ```
 
 [Deploy de sites estáticos](https://nextjs.org/docs/app/building-your-application/deploying/static-exports)
